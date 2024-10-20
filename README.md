@@ -1,6 +1,6 @@
-# pentaho-scheduler-plugin
+# tahopen-scheduler-plugin
 
-The current working source for pentaho-scheduler-plugin is contained in the "scheduler-plugin" branch.
+The current working source for tahopen-scheduler-plugin is contained in the "scheduler-plugin" branch.
 There is currently a pipeline for this branch that will build all the code
 
 **To build the project, from the root folder, execute:**
@@ -10,16 +10,16 @@ To build the project locally you check-out the following project.  Since the pip
 artifacts in you local m2 repository.
 
 **NOTE:** You should be using the "scheduler-plugin" branch for all of these projects.
-pentaho-commons-gwt-modules
-pentaho-platform
-pentaho-scheduler-plugin
+tahopen-commons-gwt-modules
+tahopen-platform
+tahopen-scheduler-plugin
 
 In the pentaho-platform/assemblies/pentaho-solution/pom.xml comment out the following entry
 
 ```
     <artifactItem>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-scheduler-plugin</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-scheduler-plugin</artifactId>
       <version>${project.version}</version>
       <type>zip</type>
       <outputDirectory>${prepared.plugins.directory}</outputDirectory>
@@ -30,7 +30,7 @@ Build each of the above projects using ***mvn clean install -DskipTests**
 
 **To deploy the plugin:**
 
-1. Download the Pentaho Platforn from the following location:
+1. Download the Tahopen Platform from the following location:
 https://build.orl.eng.hitachivantara.com/hosted/scheduler-plugin/latest/pentaho-server-ce-10.1.0.0-SNAPSHOT.zip
 2. Unzip the assembly of the pentaho-scheduler-plugin it should create a directory called "pentaho-scheduler"
 3. Expand pentaho-scheduler-plugin-10.1.0.0-SNAPSHOT.zip and drop the scheduler-plugin directory in pentaho-server/pentaho-solutions/system.
