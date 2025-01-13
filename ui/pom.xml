@@ -5,15 +5,14 @@
     <parent>
         <artifactId>tahopen-scheduler-plugin-parent</artifactId>
         <groupId>org.tahopen</groupId>
-        <version>0.1.0.0-SNAPSHOT</version>
+        <version>0.1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-scheduler-ui</artifactId>
     <packaging>war</packaging>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
     <properties>
-        <commons-gwt.version>10.1.0.0-SNAPSHOT</commons-gwt.version>
         <gwt.user.agent>safari,ie9,ie8,gecko1_8</gwt.user.agent>
         <gwt.module>org.pentaho.mantle.SchedulingDialogs</gwt.module>
         <gwt.style>OBFUSCATED</gwt.style>
