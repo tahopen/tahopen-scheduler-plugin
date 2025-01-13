@@ -31,9 +31,9 @@ Build each of the above projects using ***mvn clean install -DskipTests**
 **To deploy the plugin:**
 
 1. Download the Tahopen Platform from the following location:
-https://build.orl.eng.hitachivantara.com/hosted/scheduler-plugin/latest/pentaho-server-ce-10.1.0.0-SNAPSHOT.zip
+https://build.orl.eng.hitachivantara.com/hosted/scheduler-plugin/latest/pentaho-server-ce-0.1.0.0.zip
 2. Unzip the assembly of the pentaho-scheduler-plugin it should create a directory called "pentaho-scheduler"
-3. Expand pentaho-scheduler-plugin-10.1.0.0-SNAPSHOT.zip and drop the scheduler-plugin directory in pentaho-server/pentaho-solutions/system.
+3. Expand pentaho-scheduler-plugin-0.1.0.0.zip and drop the scheduler-plugin directory in pentaho-server/pentaho-solutions/system.
 4. To test, open a browser and go to "http://localhost:8080/pentaho/plugin/scheduler-plugin/api/scheduler/getJobs" You should get an empty jobs XML tag.
 5. Browse to content and exercise the scheduler.  Go to the scheduler perspective and exercise the scheduler.
 
